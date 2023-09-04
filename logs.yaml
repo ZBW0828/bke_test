@@ -1,0 +1,22 @@
+
+NAME       STATUS   ROLES         AGE   VERSION
+master-1  Ready    master,node   2h6m  v1.21.1
+worker-1  Ready    node          2h5m  v1.21.1
+worker-2  Ready    node          2h5m  v1.21.1
+worker-3  Ready    node          2h5m  v1.21.1
+NAMESPACE     NAME                                       READY   STATUS              RESTARTS   AGE
+kube-system  calico-kube-controllers-6d76d55c4f-7qmb4   1/1   Running            0          2h4m    
+kube-system  calico-node-9nkmx                          0/1   Unavailable        0          2h4m    
+kube-system  calico-node-g26hb                          0/1   CrashLoopBackOff   29         2h4m    
+kube-system  calico-node-glt6n                          1/1   Running            0          2h4m    
+kube-system  calico-node-ldgfg                          1/1   Running            0          2h4m    
+kube-system  coredns-7dcf4d5c97-fc9xg                   1/1   Running            0          2h4m    
+kube-system  coredns-7dcf4d5c97-sk9q6                   0/1   Pending            0          2h4m    
+kube-system  etcd-master-1                              1/1   Running            0          2h5m    
+kube-system  kube-apiserver-master-1                    1/1   Running            0          2h5m    
+kube-system  kube-controller-manager-master-1           1/1   Running            0          2h5m    
+kube-system  kube-proxy-7khhw                           1/1   Running            0          2h5m    
+kube-system  kube-proxy-hmn4b                           1/1   Running            0          2h5m    
+kube-system  kube-proxy-hzb2l                           1/1   Running            0          2h5m    
+kube-system  kube-proxy-v8r4q                           1/1   Running            0          2h5m    
+kube-system  kube-scheduler-master-1                    1/1   Running            0          2h5m    

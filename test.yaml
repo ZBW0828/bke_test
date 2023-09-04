@@ -1,0 +1,8 @@
+集群部署测试:
+success!
+组件安装测试:
+NAMESPACE     NAME                                       READY   STATUS              RESTARTS   AGE
+kube-system  calico-node-9nkmx                          0/1   Unavailable        0          2h4m    
+kube-system  calico-node-g26hb                          0/1   CrashLoopBackOff   29         2h4m    
+kube-system  coredns-7dcf4d5c97-sk9q6                   0/1   Pending            0          2h4m    
+
